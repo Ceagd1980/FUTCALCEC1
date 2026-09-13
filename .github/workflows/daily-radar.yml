@@ -32,7 +32,7 @@ jobs:
             libpangocairo-1.0-0 libgtk-3-0 libx11-xcb1
 
       - name: Instalar dependencias de Node (incluye descargar Chromium)
-        run: npm ci
+        run: npm install
 
       - name: Descargar estadísticas de SoccerStats.com
         run: npm run fetch:stats
